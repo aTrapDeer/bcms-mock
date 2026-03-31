@@ -111,14 +111,17 @@ export default function Home() {
 
       <main id="top" className="bg-surface text-on-surface">
         <section className="relative flex min-h-screen items-center overflow-hidden">
-          <div className="absolute inset-0 bg-black/40" />
           <Image
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNWlmQ3kQTRdjUBq-1oJm5NyGsqNqsGMoR8VSAQYmbJvVk47nrK9EqYoHUe264bNYcPbq9Sf3NbmQ_iatVbCFX-2SOeIOghkzNtonMPWrszTdjLUfCxqr4a6CDfQgUpJelQ1ONyCFlgZ8bipzNMsvBvZidHa3KRwAwpP6jqUMWQIDXjhfgBMDz84kgBD9YBpWTOnx-Crf_4vQrVB0BXq3qwyTPXtSzSoKCaPV-PlFcY7LehbUpmxvmSueijbSnBQxf7Btu9ZG3v4vh"
             alt="Modern architectural construction site with steel beams and crane against a dramatic twilight sky."
             fill
             preload
             sizes="100vw"
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute inset-0 z-0 h-full w-full object-cover"
+          />
+          <div
+            className="absolute inset-0 z-1 bg-linear-to-t from-black/75 via-black/50 to-black/35"
+            aria-hidden="true"
           />
           <div className="relative z-10 w-full px-6 pt-24 md:px-24">
             <div className="max-w-5xl">
@@ -141,12 +144,10 @@ export default function Home() {
                 </a>
                 <a
                   href="#projects"
-                  className="group flex items-center gap-4 py-4 text-white/70 transition-colors hover:text-white"
+                  className="group inline-flex h-14 items-center gap-3 border border-white/50 bg-white/10 px-8 text-sm font-bold tracking-[0.2em] text-white uppercase backdrop-blur-md transition-all hover:border-white hover:bg-white/20 md:px-10"
                 >
-                  <span className="border-b border-white/30 text-sm font-bold tracking-[0.2em] uppercase transition-colors group-hover:border-white">
-                    View Our Portfolio
-                  </span>
-                  <span aria-hidden="true" className="text-xl">
+                  View Our Portfolio
+                  <span aria-hidden="true" className="text-xl transition-transform group-hover:translate-x-0.5">
                     →
                   </span>
                 </a>
