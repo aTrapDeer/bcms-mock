@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BCMS | Architectural Precision in Construction Management</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#001e2b",
+              "on-primary-fixed": "#1b1b1b",
+              "on-tertiary-fixed-variant": "#1d4c60",
+              "tertiary-container": "#001e2b",
+              "tertiary": "#000000",
+              "on-primary": "#ffffff",
+              "secondary": "#5f5e5e",
+              "on-surface-variant": "#4c4546",
+              "on-background": "#1b1c1c",
+              "outline": "#7e7576",
+              "primary-fixed": "#e2e2e2",
+              "surface-dim": "#dbdad9",
+              "primary-fixed-dim": "#c6c6c6",
+              "on-secondary-fixed-variant": "#474746",
+              "inverse-on-surface": "#f2f0f0",
+              "surface-container-low": "#f5f3f3",
+              "surface-variant": "#e4e2e2",
+              "surface-container": "#efeded",
+              "inverse-primary": "#c6c6c6",
+              "on-primary-fixed-variant": "#474747",
+              "on-tertiary-container": "#5f89a0",
+              "surface-container-highest": "#e4e2e2",
+              "surface-bright": "#fbf9f9",
+              "outline-variant": "#cfc4c5",
+              "on-secondary-container": "#636262",
+              "secondary-container": "#e2dfde",
+              "primary-container": "#1b1b1b",
+              "inverse-surface": "#303031",
+              "on-error": "#ffffff",
+              "secondary-fixed-dim": "#c8c6c5",
+              "background": "#fbf9f9",
+              "on-secondary": "#ffffff",
+              "surface-container-high": "#e9e8e7",
+              "on-surface": "#1b1c1c",
+              "surface-tint": "#5e5e5e",
+              "error": "#ba1a1a",
+              "on-secondary-fixed": "#1c1b1b",
+              "on-primary-container": "#848484",
+              "secondary-fixed": "#e5e2e1",
+              "primary": "#000000",
+              "surface": "#fbf9f9",
+              "on-tertiary": "#ffffff",
+              "error-container": "#ffdad6",
+              "tertiary-fixed": "#c1e8ff",
+              "on-error-container": "#93000a",
+              "tertiary-fixed-dim": "#a1cde5"
+            },
+            fontFamily: {
+              "headline": ["Inter", "sans-serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        .no-line { border: none !important; }
+        .tonal-shift { background: rgba(251, 249, 249, 0.8); }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 border-0 rounded-0 bg-white/80 dark:bg-black/80 backdrop-blur-xl shadow-[0px_40px_60px_rgba(27,28,28,0.04)]">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-full mx-auto">
+<div class="text-2xl font-black tracking-tighter text-black dark:text-white uppercase">BCMS</div>
+<div class="hidden md:flex gap-12">
+<a class="font-['Inter'] font-bold tracking-tight uppercase text-sm text-black dark:text-white transition-colors duration-300" href="#">Services</a>
+<a class="font-['Inter'] font-medium tracking-tight uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-300" href="#">Projects</a>
+<a class="font-['Inter'] font-medium tracking-tight uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-300" href="#">About</a>
+<a class="font-['Inter'] font-medium tracking-tight uppercase text-sm text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors duration-300" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-3 font-bold text-sm uppercase tracking-widest hover:opacity-90 transition-opacity">
+                Get a Quote
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative h-screen flex items-center overflow-hidden">
+<div class="absolute inset-0 bg-black/40 z-10"></div>
+<img alt="High-end construction site" class="absolute inset-0 w-full h-full object-cover" data-alt="Modern architectural construction site with steel beams and crane against a dramatic twilight sky with sharp geometric lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNWlmQ3kQTRdjUBq-1oJm5NyGsqNqsGMoR8VSAQYmbJvVk47nrK9EqYoHUe264bNYcPbq9Sf3NbmQ_iatVbCFX-2SOeIOghkzNtonMPWrszTdjLUfCxqr4a6CDfQgUpJelQ1ONyCFlgZ8bipzNMsvBvZidHa3KRwAwpP6jqUMWQIDXjhfgBMDz84kgBD9YBpWTOnx-Crf_4vQrVB0BXq3qwyTPXtSzSoKCaPV-PlFcY7LehbUpmxvmSueijbSnBQxf7Btu9ZG3v4vh"/>
+<div class="relative z-20 px-12 md:px-24 w-full">
+<div class="max-w-5xl">
+<span class="inline-block bg-primary text-on-primary px-4 py-1 text-xs font-bold tracking-[0.2em] uppercase mb-8">Established 1994</span>
+<h1 class="text-white text-6xl md:text-9xl font-black tracking-tighter leading-[0.9] uppercase">
+                        Precision in<br/>Construction<br/>Management
+                    </h1>
+<div class="mt-12 flex flex-col md:flex-row gap-6 items-start">
+<button class="h-14 px-10 bg-white text-black font-bold uppercase tracking-widest text-sm hover:bg-neutral-100 transition-colors">
+                            Start Your Project
+                        </button>
+<div class="flex items-center gap-4 text-white/70 py-4 group cursor-pointer">
+<span class="text-sm font-bold tracking-widest uppercase border-b border-white/30 group-hover:border-white transition-all">View Our Portfolio</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-12 right-12 z-20 hidden lg:block text-white/40 text-right">
+<p class="text-8xl font-black leading-none opacity-20 select-none">01</p>
+<p class="text-xs font-medium tracking-[0.3em] uppercase">Architectural Excellence</p>
+</div>
+</section>
+<!-- Stats / Subtle Tonal Section -->
+<section class="bg-surface-container-low py-24 px-12 md:px-24">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+<div>
+<h3 class="text-5xl font-black mb-4">250+</h3>
+<p class="text-secondary text-sm font-medium tracking-widest uppercase">Projects Delivered</p>
+<p class="mt-4 text-secondary leading-relaxed max-w-xs">Excellence in luxury residential and high-stakes commercial infrastructure.</p>
+</div>
+<div>
+<h3 class="text-5xl font-black mb-4">$2B+</h3>
+<p class="text-secondary text-sm font-medium tracking-widest uppercase">Capital Managed</p>
+<p class="mt-4 text-secondary leading-relaxed max-w-xs">Fiscal responsibility paired with uncompromising material quality.</p>
+</div>
+<div>
+<h3 class="text-5xl font-black mb-4">30yrs</h3>
+<p class="text-secondary text-sm font-medium tracking-widest uppercase">Industry Leadership</p>
+<p class="mt-4 text-secondary leading-relaxed max-w-xs">Three decades of architectural precision and project integrity.</p>
+</div>
+</div>
+</section>
+<!-- Featured Projects - Immersive Sections -->
+<section class="flex flex-col">
+<!-- Project 1 -->
+<div class="group relative h-[819px] w-full overflow-hidden flex items-end">
+<img alt="Modern corporate skyscraper" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Low angle view of a glass and steel skyscraper reflecting the sky with sharp architectural lines and monochromatic tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkNkj_1qVWb4_onj5xMVtTJeK3FfDZThxJS6zCnE1X152OyzyadcXK6lltt_GSk2RpnKmqPWljD4k9slz4KONhpPw5UPHpReTvXcT4kXYl8iBA6EojpWcDHtwUK6dzR_uwpNUGi0L2cVMVt7gC_-nf8m8bl50RWmpVyQQBhlR2bKNPMddgeheEu-v6n12kprP92mBD6zERtkDXaMUpPtGE47TmEXadVYVTpjIvUveCE5sIyWszyUV4zd2COORtGLcaCPrEq-zmm3DI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="relative z-10 p-12 md:p-24 w-full flex justify-between items-end">
+<div>
+<span class="text-white/60 text-xs font-bold tracking-[0.2em] uppercase mb-4 block">Commercial Architecture</span>
+<h2 class="text-white text-5xl md:text-7xl font-bold tracking-tighter uppercase">The Meridian Plaza</h2>
+</div>
+<div class="text-right hidden md:block">
+<button class="text-white border border-white/30 px-8 py-4 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all">Explore Case Study</button>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group relative h-[819px] w-full overflow-hidden flex items-end">
+<img alt="Luxury modern residence" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Minimalist luxury villa with concrete walls and large glass panels at dusk with warm interior lighting and sharp shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYeiE0lJiJsiPODskP9u2geu2tYY8nC5O6epQvzMgAykC8BvUr-ecXvauim5M3Zs0SjWeEnQdHFTfUvhCMM25Ourxrb7bmmD6lqRQn6hB20UD9t5-D-7SRuA0s1oTror0B188Yh1simbHhOowaBXHIaVEW8uKAEyceQvwFvoNLYWncZQ1dI2t4YLxANVcZILPBVG-8dwwQTcXDmA1DVgw7SkEClm0nk9-JG2Ul1TGvWbCvUD8Eu9Bur_avOoXSfi5dvM3_Af7_nfrB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="relative z-10 p-12 md:p-24 w-full flex justify-between items-end">
+<div>
+<span class="text-white/60 text-xs font-bold tracking-[0.2em] uppercase mb-4 block">Luxury Residential</span>
+<h2 class="text-white text-5xl md:text-7xl font-bold tracking-tighter uppercase">Observatory House</h2>
+</div>
+<div class="text-right hidden md:block">
+<button class="text-white border border-white/30 px-8 py-4 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all">Explore Case Study</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-32 bg-white px-12 md:px-24">
+<div class="max-w-screen-xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-start mb-24 gap-8">
+<div class="md:w-1/2">
+<span class="text-secondary text-xs font-bold tracking-[0.3em] uppercase block mb-4">Our Expertise</span>
+<h2 class="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.9]">Architectural<br/>Execution</h2>
+</div>
+<div class="md:w-1/3 mt-8">
+<p class="text-secondary text-lg leading-relaxed">We transform visionary designs into structural reality through rigorous management and technical mastery.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-12 border-t border-black/5 pt-16">
+<div class="py-8">
+<h3 class="text-xl font-bold uppercase tracking-widest mb-4 flex items-center gap-4">
+<span class="text-neutral-300 font-black">01</span> Project Management
+                        </h3>
+<p class="text-secondary font-body leading-relaxed">Comprehensive oversight from pre-construction through project closeout. We manage complex schedules and budgets with surgical precision.</p>
+</div>
+<div class="py-8">
+<h3 class="text-xl font-bold uppercase tracking-widest mb-4 flex items-center gap-4">
+<span class="text-neutral-300 font-black">02</span> Structural Integrity
+                        </h3>
+<p class="text-secondary font-body leading-relaxed">Engineering-focused management that ensures the architectural intent is matched by superior structural performance and longevity.</p>
+</div>
+<div class="py-8">
+<h3 class="text-xl font-bold uppercase tracking-widest mb-4 flex items-center gap-4">
+<span class="text-neutral-300 font-black">03</span> Resource Logistics
+                        </h3>
+<p class="text-secondary font-body leading-relaxed">Strategic procurement and deployment of premium materials and elite workforce to maintain the highest standards of craftsmanship.</p>
+</div>
+<div class="py-8">
+<h3 class="text-xl font-bold uppercase tracking-widest mb-4 flex items-center gap-4">
+<span class="text-neutral-300 font-black">04</span> Financial Control
+                        </h3>
+<p class="text-secondary font-body leading-relaxed">Rigorous cost estimation and ongoing audit processes to protect investment capital while delivering uncompromised quality.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Strong CTA Section -->
+<section class="bg-[#1A1A1A] text-white py-32 px-12 md:px-24">
+<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl">
+<h2 class="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.9] mb-8">Built for the<br/>Extraordinary</h2>
+<p class="text-neutral-400 text-lg md:text-xl font-medium max-w-lg leading-relaxed">Ready to initiate your next landmark project? Our consultants are prepared to provide architectural precision from day zero.</p>
+</div>
+<div class="flex flex-col items-center gap-6">
+<button class="bg-white text-black px-12 py-6 font-bold text-base uppercase tracking-[0.2em] hover:bg-neutral-200 transition-colors w-full md:w-auto">
+                        Request a Proposal
+                    </button>
+<a class="text-sm font-bold tracking-widest uppercase border-b border-white/20 hover:border-white transition-all" href="mailto:contact@bcms.com">Direct Inquiry</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-neutral-100 dark:bg-neutral-900 flex flex-col md:flex-row justify-between items-center w-full px-12 py-16 gap-8">
+<div class="flex flex-col gap-4">
+<div class="text-lg font-bold text-black dark:text-white uppercase tracking-tighter">BCMS</div>
+<p class="font-['Inter'] text-xs font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400">© 2024 Braun Construction Management Services. Architectural Precision.</p>
+</div>
+<div class="flex gap-12">
+<a class="font-['Inter'] text-xs font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all" href="#">Privacy Policy</a>
+<a class="font-['Inter'] text-xs font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all" href="#">Terms of Service</a>
+<a class="font-['Inter'] text-xs font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all" href="#">LinkedIn</a>
+<a class="font-['Inter'] text-xs font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-all" href="#">Instagram</a>
+</div>
+</footer>
+</body></html>
